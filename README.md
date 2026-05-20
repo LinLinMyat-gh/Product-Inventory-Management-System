@@ -1,9 +1,9 @@
-# 📦 𝐈𝐧𝐯𝐞𝐧𝐭𝐨𝐫𝐲 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐒𝐲𝐬𝐭𝐞𝐦  
+#  𝐈𝐧𝐯𝐞𝐧𝐭𝐨𝐫𝐲 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐒𝐲𝐬𝐭𝐞𝐦  
 ### ASP.NET MVC | SQLite | CRUD System
 
 
 
-## 📌 About This Project
+##  About This Project
 
 This is a **modern Product Inventory Management System** built using **ASP.NET MVC** with **SQLite database integration**.
 
@@ -13,7 +13,7 @@ It demonstrates practical implementation of **web development principles, databa
 
 
 
-## 🚀 Project Overview
+##  Project Overview
 
 The system allows users to:
 
@@ -26,7 +26,7 @@ The system allows users to:
 
 
 
-## ✨ Features Implemented
+##  Features Implemented
 
 - CRUD Operations (Create, Read, Update, Delete)
 - Product Image Upload System
@@ -39,7 +39,7 @@ The system allows users to:
 
 
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Frontend
 - HTML5  
