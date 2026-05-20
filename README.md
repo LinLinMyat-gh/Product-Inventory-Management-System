@@ -54,6 +54,25 @@ The system allows users to:
 - SQLite  
 - Entity Framework  
 
+---
+
+##  Application Preview
+
+####  Home Page
+![Home](screenshots/home.png)
+
+####  About Page
+![About](screenshots/about.png)
+
+####  Product Management
+![Products](screenshots/products.png)
+
+####  Add Product
+![Create](screenshots/create-product.png)
+
+####  Edit Product
+![Edit](screenshots/edit-product.png)
+
 
 
 
