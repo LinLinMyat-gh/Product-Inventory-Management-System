@@ -1,0 +1,61 @@
+@model ProductAssignment.Models.ProductModel
+
+@{
+    ViewData["Title"] = "Create Product";
+}
+
+<h1>Create Product</h1>
+
+<form method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()  
+    
+    <div class="form-group">
+        <label asp-for="Name">Product Name</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description">Description</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BuyingPrice">Buying Price</label>
+        <input asp-for="BuyingPrice" class="form-control" type="number" step="0.01" />
+        <span asp-validation-for="BuyingPrice" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Supplier">Supplier</label>
+        <input asp-for="Supplier" class="form-control" />
+        <span asp-validation-for="Supplier" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ManufacturingDate">Manufacturing Date</label>
+        <input asp-for="ManufacturingDate" class="form-control" type="date" />
+        <span asp-validation-for="ManufacturingDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PurchasingDate">Purchasing Date</label>
+        <input asp-for="PurchasingDate" class="form-control" type="date" />
+        <span asp-validation-for="PurchasingDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ExpiredDate">Expired Date</label>
+        <input asp-for="ExpiredDate" class="form-control" type="date" />
+        <span asp-validation-for="ExpiredDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="ImageFile" class="form-label">Upload Product Image</label>
+        <input type="file" class="form-control" id="ImageFile" name="ImageFile" accept="image/*" required />
+        <span asp-validation-for="ImageFilename" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Add</button>
+</form>
