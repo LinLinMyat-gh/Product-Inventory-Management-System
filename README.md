@@ -13,7 +13,7 @@ The application supports additional features including product image uploads, in
 
 ---
 
-# Features
+## Features
 
 The system provides complete product management functionality, allowing users to add new products, update existing product details, view inventory records, and remove unnecessary product entries.
 
@@ -23,7 +23,7 @@ To improve usability, the system implements pagination for handling large amount
 
 ---
 
-# Technologies Used
+## Technologies Used
 
 The application was developed using **C#** as the primary programming language and **ASP.NET MVC** as the backend web framework. Entity Framework Core was used as the Object-Relational Mapping (ORM) tool to simplify database operations and allow communication between the application and the database.
 
@@ -31,7 +31,7 @@ For the frontend development, the project uses **HTML5, CSS3, Bootstrap 5, and R
 
 ---
 
-# System Architecture
+## System Architecture
 
 The application follows the **Model-View-Controller (MVC)** architecture, which separates the application into three main components: Model, View, and Controller.
 
@@ -41,7 +41,7 @@ This separation improves code organization, maintainability, and scalability whi
 
 ---
 
-# Concepts and Skills Applied
+## Concepts and Skills Applied
 
 Throughout this project, several software development concepts were implemented, including MVC architecture, CRUD operations, Entity Framework ORM, database design, and object-oriented programming principles.
 
@@ -51,7 +51,7 @@ Git and GitHub were used for version control and project management, demonstrati
 
 ---
 
-# Project Structure
+## Project Structure
 
 The project follows a structured MVC folder organization:
 
@@ -80,9 +80,9 @@ InventoryManagementSystem
 
 ---
 
-# What This Project Demonstrates
+## What This Project Demonstrates
 
-This project demonstrates the ability to develop a complete full-stack web application using ASP.NET MVC and C#. It shows practical knowledge of backend development, frontend implementation, database integration, and software architecture design.
+This project demonstrates the ability to develop a complete full-stack web application using ASP.NET MVC and C#. It shows practical knowledge of backend development, frontend implementation, database integration and software architecture design.
 
 Through this project, I gained hands-on experience in creating maintainable CRUD applications, connecting applications with databases using Entity Framework, designing responsive user interfaces, and applying software engineering best practices such as modular development and version control.
 
