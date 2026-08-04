@@ -1,4 +1,4 @@
-# Productory Inventory Management System
+# Productory Inventory Management Web Application
 
 ## 🌐 Live Demo
 
