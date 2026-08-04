@@ -51,35 +51,6 @@ Git and GitHub were used for version control and project management, demonstrati
 
 ---
 
-## Project Structure
-
-The project follows a structured MVC folder organization:
-
-```
-InventoryManagementSystem
-│
-├── Controllers
-│   └── ProductController.cs
-│
-├── Models
-│   └── Product.cs
-│
-├── Views
-│   └── Product Views
-│
-├── Data
-│   └── ApplicationDbContext.cs
-│
-├── wwwroot
-│   └── Uploaded Images
-│
-├── Migrations
-│
-└── Program.cs
-```
-
----
-
 ## What This Project Demonstrates
 
 This project demonstrates the ability to develop a complete full-stack web application using ASP.NET MVC and C#. It shows practical knowledge of backend development, frontend implementation, database integration and software architecture design.
